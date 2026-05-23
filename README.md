@@ -15,9 +15,8 @@ A fully integrated, end-to-end data analytics pipeline that transforms raw credi
 credit-card-analytics/
 │
 ├── data/
-│   ├── credit_card.csv          # Raw transaction logs
-│   └── customer.csv             # Customer demographic records
-│
+│   ├── credit_card.csv          # Account snapshots (~10K rows tracking 667K+ aggregate transactions)
+│   └── customer.csv             # Customer demographic records (~10K rows)
 ├── sql/
 │   ├── schema.sql               # Database & table creation scripts
 │   └── ingest.sql               # LOAD DATA INFILE ingestion commands
